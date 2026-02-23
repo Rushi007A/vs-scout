@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState, useEffect, use } from "react";
 
 type Company = {
-  id: string | number;
+  id: string;
   name: string;
   website: string;
   sector: string;

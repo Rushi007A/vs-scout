@@ -5,7 +5,7 @@ import companiesData from "../data/companies.json";
 import Link from "next/link";
 
 type Company = {
-  id: number;
+  id: string;
   name: string;
   sector: string;
   stage: string;
